@@ -38,3 +38,14 @@ console.log(fullName.charAt(0)); // output: J (character at index 0)
 console.log(fullName.charAt(fullName.length - 1)); // output: e (last character)
 console.log(fullName.trim()); // removes whitespace from both ends of the string
 console.log(fullName.split(" ")); // splits the string into an array based on the space character, output: [ 'John', 'Doe' ]    
+
+console.log(fullName.replace("John", "Jane")); // output: Jane Doe (replaces 'John' with 'Jane')
+console.log(fullName.includes("Doe")); // output: true (checks if 'Doe' is in the string)   
+console.log(fullName.repeat(3)); // output: John DoeJohn DoeJohn Doe (repeats the string 3 times)   
+console.log(fullName.startsWith("J")); // output: true (checks if the string starts with 'J')
+console.log(fullName.endsWith("e")); // output: true (checks if the string ends with 'e')   
+console.log(fullName.concat(" is a developer.")); // output: John Doe is a developer. (concatenates strings)
+console.log(fullName.search("Doe")); // output: 5 (searches for 'Doe' and returns its position)
+console.log(fullName.substr(0, 4)); // output: John (extracts 4 characters starting from index 0)
+console.log(fullName.substring(0, 4)); // output: John (extracts characters between index 0 and 4)  
+console.log(fullName.valueOf()); // output: John Doe (returns the primitive value of the string)
