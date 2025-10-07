@@ -6,3 +6,4 @@ alert('hello world');
 
 // logging to the console (good for debugging)
 console.log("hello world, welcome to modern javascript");
+
