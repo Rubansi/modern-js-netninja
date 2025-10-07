@@ -49,3 +49,53 @@ console.log(fullName.search("Doe")); // output: 5 (searches for 'Doe' and return
 console.log(fullName.substr(0, 4)); // output: John (extracts 4 characters starting from index 0)
 console.log(fullName.substring(0, 4)); // output: John (extracts characters between index 0 and 4)  
 console.log(fullName.valueOf()); // output: John Doe (returns the primitive value of the string)
+
+
+//escape characters
+let quote = 'He said, "It\'s a beautiful day!"';    
+console.log(quote); // output: He said, "It's a beautiful day!"
+
+let path = "C:\\Users\\JohnDoe\\Documents";    
+console.log(path); // output: C:\Users\JohnDoe\Documents    
+let multiLine = `This is a string
+that spans multiple
+lines.`;    
+console.log(multiLine); // output: This is a string
+//that spans multiple
+//lines.    
+
+//string comparison
+let str1 = "apple";
+let str2 = "banana";
+console.log(str1 === str2); // output: false (strict equality)
+console.log(str1 !== str2); // output: true (not equal)
+console.log(str1 < str2); // output: true (lexicographical comparison)
+console.log(str1 > str2); // output: false (lexicographical comparison)
+console.log(str1 <= str2); // output: true
+console.log(str1 >= str2); // output: false 
+
+//string conversion
+let num = 123;
+let bool = true;
+console.log(String(num)); // output: "123" (number to string)
+console.log(String(bool)); // output: "true" (boolean to string)
+console.log(num.toString()); // output: "123" (number to string)
+console.log(bool.toString()); // output: "true" (boolean to string)
+console.log((456).toString()); // output: "456" (number to string)
+console.log((false).toString()); // output: "false" (boolean to string)
+console.log(String(null)); // output: "null" (null to string)
+console.log(String(undefined)); // output: "undefined" (undefined to string)    
+console.log([1, 2, 3].toString()); // output: "1,2,3" (array to string)
+console.log({key: "value"}.toString()); // output: "[object Object]" (object to string) 
+console.log(String(NaN)); // output: "NaN" (NaN to string)
+console.log(String(Infinity)); // output: "Infinity" (Infinity to string)   
+
+//string immutability
+let immutableStr = "hello";
+immutableStr[0] = "H"; // this won't change the string
+console.log(immutableStr); // output: hello (string remains unchanged)  
+immutableStr = "Hello"; // reassigning creates a new string
+console.log(immutableStr); // output: Hello (string is now changed) 
+//strings are immutable, meaning once created, they cannot be changed. Any operation that seems to modify a string actually creates a new string.
+// Always refer to the MDN documentation for more string methods and details: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
