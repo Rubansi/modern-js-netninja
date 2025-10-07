@@ -8,4 +8,9 @@ let age = 30; // integer
 let price = 19.99; // float
 console.log(age, price); // output: 30 19.99  
 
-    
+//3. boolean - true or false values                         
+let isStudent = true;
+let isEmployed = false;
+console.log(isStudent, isEmployed); // output: true false
+
+ 
