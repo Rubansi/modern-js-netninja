@@ -26,7 +26,15 @@ console.log(fullName[0]); // output: J (first character)
 console.log(fullName.toUpperCase()); // output: JOHN DOE
 console.log(fullName.toLowerCase()); // output: john doe
 console.log(fullName.indexOf("D")); // output: 5 (position of 'D' in the string)
-console.log(fullName.slice(0, 4)); // output: John (extracts characters from index 0 to 4)  
+console.log(fullName.slice(0, 3)); // output: John (extracts characters from index 0 to 4)  
 
+let newName = fullName.toLowerCase();
+console.log(newName); // output: john doe   
 
 //string length
+console.log(fullName.length); // output: 8 (number of characters in the string)
+console.log(newName.length); // output: 8
+console.log(fullName.charAt(0)); // output: J (character at index 0)
+console.log(fullName.charAt(fullName.length - 1)); // output: e (last character)
+console.log(fullName.trim()); // removes whitespace from both ends of the string
+console.log(fullName.split(" ")); // splits the string into an array based on the space character, output: [ 'John', 'Doe' ]    
