@@ -13,4 +13,6 @@ let isStudent = true;
 let isEmployed = false;
 console.log(isStudent, isEmployed); // output: true false
 
- 
+//4. null - represents the intentional absence of any object value
+let emptyValue = null;
+console.log(emptyValue); // output: null   
