@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>adding javascript to a web page</title>
+    <!-- Method 1 -->
+    <!-- javascript added using the script tag -->
+     <!-- Javascript added inside the head tag -->
+      <!-- This method is not commonly used for performance reasons -->
+    <script>
+        alert("hello world");
+    </script>
 </head>
 <body>
+    <h1>My Web Page</h1>
+    <p>This is a simple web page with JavaScript alert.</p>
+
+
+    <!-- Method 2 - Javascript added in the body tag -->
+     <!-- The best practice is to have the script tag at the bottom of the body tag -->
+    <script>
+        alert("hello world, welcome to my web page");
+    </script>
+
+
+    <!-- Method 3 - Javascript is added by referencing the external js script in the html head tag using the src attribute inside the script tag -->
+
+    <script src="script.js"></script> /* This method is commonly used to keep the HTML and JavaScript code separate for better organization and maintainability */
     
 </body>
 </html>
