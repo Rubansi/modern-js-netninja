@@ -8,4 +8,4 @@ age = 30;
 console.log(age);
 
 var score = 75; // 'var' is the old way of declaring variables, avoid using it in modern JS
-console.log(score);
+console.log(score); // still works, but not recommended
