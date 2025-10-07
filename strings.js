@@ -23,7 +23,10 @@ console.log(fullName[0]); // output: J (first character)
 
 
 //string methods
-
+console.log(fullName.toUpperCase()); // output: JOHN DOE
+console.log(fullName.toLowerCase()); // output: john doe
+console.log(fullName.indexOf("D")); // output: 5 (position of 'D' in the string)
+console.log(fullName.slice(0, 4)); // output: John (extracts characters from index 0 to 4)  
 
 
 //string length
