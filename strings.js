@@ -18,6 +18,7 @@ console.log(greeting); // output: Hello, my name is John Doe and I am 30 years o
 
 
 //getting characters
+console.log(fullName[0]); // output: J (first character)
 
 
 
