@@ -10,5 +10,6 @@ const speak = function (){
 };
 
 greet(); // calling a function, or rather invoking a function
-greet();
-greet();
+
+
+speak ();
