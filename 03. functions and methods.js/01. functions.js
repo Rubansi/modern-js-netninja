@@ -5,7 +5,7 @@ function greet(){
 }
 
 //function expression - a function is assigned to a variable
-const speak = function (){
+const speak = function (){ // here the function has been stored in the speak variable
 
 }
 
