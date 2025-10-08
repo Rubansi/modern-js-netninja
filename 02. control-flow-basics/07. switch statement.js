@@ -51,3 +51,7 @@ switch(marks){
     default:
         console.log('not a valid grade');
 }
+
+// the switch statement uses strict equality, checks the type and actual value including case sensitive
+
+//the break clause helps to execute the code up to that point, no need of break clause after the default case.
