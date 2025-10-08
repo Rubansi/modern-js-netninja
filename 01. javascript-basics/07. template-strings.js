@@ -5,6 +5,11 @@ let age = 30;
 let greeting = `Hello, my name is ${firstName} ${lastName} and I am ${age} years old.`; // using backticks `` and ${} for variables
 console.log(greeting); // output: Hello, my name is John Doe and I am 30 years old.
 
+// string concatenation
+let fullName = firstName + " " + lastName;
+console.log(fullName); // output: John Doe
+
+
 // multi-line strings
 let multiLine = `This is a string   
 that spans multiple
