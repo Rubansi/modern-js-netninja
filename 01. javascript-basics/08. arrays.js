@@ -27,5 +27,13 @@ fruits.forEach((fruit, index) => {
 // output:
 // 0: Apple
 // 1: Banana
-// 2: Cherry
+// 2: Cherry    
+
+// array methods
+let numbers = [1, 2, 3, 4, 5];  
+let doubled = numbers.map(num => num * 2);
+console.log(doubled); // output: [ 2, 4, 6, 8, 10 ] 
+
+
+
 
