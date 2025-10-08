@@ -35,3 +35,8 @@ let zero = 0;
 let nonZero = 42;
 console.log(Boolean(zero)); // output: false (0 to boolean)
 console.log(Boolean(nonZero)); // output: true (non-zero number to boolean) 
+
+//converting booleans to numbers
+console.log(Number(true)); // output: 1 (boolean true to number)
+console.log(Number(false)); // output: 0 (boolean false to number)  
+
