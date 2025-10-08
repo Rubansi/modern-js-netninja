@@ -15,3 +15,13 @@ greet(); // calling a function declaration, or rather invoking a function
 speak (); // calling a function expression
 
 // take note of hoisting, applies to function declaration but does not apply to function expression
+
+//in hoisting the function can be called before being declared and will still work
+
+//example
+
+salute ();
+
+function salute(){
+    console.log('i salute you!')
+}
