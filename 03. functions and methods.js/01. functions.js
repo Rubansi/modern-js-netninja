@@ -4,8 +4,10 @@ function greet(){
     console.log('hello world');
 }
 
-//function expression
-const speak
+//function expression - a function is assigned to a variable
+const speak = function (){
+
+}
 
 greet(); // calling a function, or rather invoking a function
 greet();
