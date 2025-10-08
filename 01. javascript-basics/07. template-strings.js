@@ -36,3 +36,22 @@ function tag(strings, ...values) {
     console.log(values);  // array of interpolated values
     return "Tagged Template Result";
 }
+
+let result = tag`Hello, ${firstName} ${lastName}. You are ${age} years old.`;
+console.log(result); // output: Tagged Template Result  
+
+// raw strings
+let rawString = String.raw`C:\Users\${firstName}\Documents`;
+console.log(rawString); // output: C:\Users\${firstName}\Documents (backslashes are preserved)
+
+// using template strings for HTML generation       
+let user = {
+    name: "Bob",
+    age: 28
+};  
+let userCard = `
+<div class="user-card">
+    <h2>${user.name}</h2>
+    <p>Age: ${user.age}</p>
+</div>
+`;
