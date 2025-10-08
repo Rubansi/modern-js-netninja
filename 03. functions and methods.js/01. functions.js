@@ -25,3 +25,6 @@ salute (); //function is called before being declared/ defined
 function salute(){
     console.log('i salute you!') 
 }
+
+
+//important; for a logical flow of the code, use function expression or be consistent in creating them before calling them
