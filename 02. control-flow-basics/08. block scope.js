@@ -9,7 +9,8 @@ if(true){
     if(true){
         let age = 50;
          console.log('inside 2nd code block: ', age);
+         var test = 'hello'; //block scope does not apply to var
     }
 }
 
-console.log('outside code block: ', age);
+console.log('outside code block: ', age, test);
