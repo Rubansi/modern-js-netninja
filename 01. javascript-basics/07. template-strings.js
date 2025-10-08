@@ -78,3 +78,21 @@ let x = 10;
 let y = 20;
 console.log(`The product of ${x} and ${y} is ${(() => x * y)()}.`); // output: The product of 10 and 20 is 200.  
 // The third placeholder, ${(() => x * y)()}, is more interesting: it defines an arrow function () => x * y that multiplies x and y, and immediately invokes it with (). This is called an Immediately Invoked Function Expression (IIFE) within a template string.
+
+
+// using template strings for SQL queries (example)
+let tableName = "users";
+let columnName = "age";
+let minAge = 18;
+let sqlQuery = `SELECT * FROM ${tableName} WHERE ${columnName} >= ${minAge};`;
+console.log(sqlQuery); // output: SELECT * FROM users WHERE age >= 18;      
+
+// using template strings for URL generation
+let baseURL = "https://api.example.com";
+let endpoint = "getUser";   
+
+let userId = 123;
+let apiURL = `${baseURL}/${endpoint}?id=${userId}`;
+console.log(apiURL); // output: https://api.example.com/getUser?id=123  
+
+// using template strings for logging
