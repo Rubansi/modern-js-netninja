@@ -13,7 +13,7 @@ if (password.length >= 12){
 }
 
 
-//Using logical operators; logical OR - one of the arguments has to be true
+//Using logical operators; 
 const password1 = 'password1254';
 
 if (password1.length && password1.includes('@')){
@@ -24,4 +24,5 @@ if (password1.length && password1.includes('@')){
     console.log('password is not long enough ')
 }
 
-
+//logical OR - one of the arguments has to be true
+//logical AND && - both arguments have to be true.
