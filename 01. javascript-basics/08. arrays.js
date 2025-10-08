@@ -15,3 +15,17 @@ console.log(fruits); // output: [ 'Apple', 'Banana', 'Cherry', 'Date' ]
 let lastFruit = fruits.pop();
 console.log(lastFruit); // output: Date
 console.log(fruits); // output: [ 'Apple', 'Banana', 'Cherry' ]
+
+
+// array length
+console.log(fruits.length); // output: 3
+
+// iterating over an array
+fruits.forEach((fruit, index) => {
+    console.log(`${index}: ${fruit}`);
+});
+// output:
+// 0: Apple
+// 1: Banana
+// 2: Cherry
+
