@@ -40,3 +40,10 @@ console.log(Boolean(nonZero)); // output: true (non-zero number to boolean)
 console.log(Number(true)); // output: 1 (boolean true to number)
 console.log(Number(false)); // output: 0 (boolean false to number)  
 
+// Another example;
+let score = 100;
+console.log(score + 1); // output: 101 (number addition)
+console.log(score + "1"); // output: "1001" (number to string conversion, then concatenation)
+
+
+
