@@ -81,3 +81,25 @@ console.log(Number.isNaN(Infinity));
 // output: false (Infinity is not NaN, it's a valid number)
 console.log(Number.isNaN(-Infinity)); 
 // output: false (-Infinity is not NaN, it's a valid number)
+
+
+//number conversion
+let score = "100";  
+console.log(Number(score)); // output: 100 (string to number)
+console.log(typeof Number(score)); // output: "number"
+console.log(parseInt(score)); // output: 100 (string to integer)
+console.log(typeof parseInt(score)); // output: "number"
+console.log(parseFloat("100.50")); // output: 100.5 (string to float)
+console.log(typeof parseFloat("100.50")); // output: "number"
+console.log(Number("100abc")); // output: NaN (invalid number)
+console.log(parseInt("100abc")); // output: 100 (parses up to the first non-numeric character)
+console.log(parseFloat("100.50abc")); // output: 100.5 (parses up to the first non-numeric character)
+console.log(Number(true)); // output: 1 (boolean true to number)    
+console.log(Number(false)); // output: 0 (boolean false to number)
+console.log(Number(null)); // output: 0 (null to number)
+console.log(Number(undefined)); // output: NaN (undefined to number)
+console.log(Number("")); // output: 0 (empty string to number)
+console.log(Number(" ")); // output: 0 (string with only spaces to number)
+
+
+
