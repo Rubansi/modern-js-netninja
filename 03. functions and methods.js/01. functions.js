@@ -9,7 +9,7 @@ const speak = function (){
     console.log('good day!');
 };
 
-greet(); // calling a function, or rather invoking a function
+greet(); // calling a function declaration, or rather invoking a function
 
 
-speak ();
+speak (); // calling a function expression
