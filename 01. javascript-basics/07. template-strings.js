@@ -55,3 +55,20 @@ let userCard = `
     <p>Age: ${user.age}</p>
 </div>
 `;
+
+console.log(userCard); // output: HTML structure with user details
+
+// escaping backticks in template strings
+let escapedString = `He said, \`It's a beautiful day!\``;
+console.log(escapedString); // output: He said, `It's a beautiful day!` 
+
+// using functions within template strings
+function toUpperCase(str) {
+    return str.toUpperCase();
+}
+console.log(`Uppercase Name: ${toUpperCase(firstName)}`); // output: Uppercase Name: JOHN
+
+// conditional rendering in template strings
+let isMember = true;
+let membershipMessage = `Membership Status: ${isMember ? "Active Member" : "Guest"}`;
+console.log(membershipMessage); // output: Membership Status: Active Member
