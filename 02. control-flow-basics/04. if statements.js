@@ -19,7 +19,7 @@ if (ninjas.length > 4){
 }
 
 
-// the esle and else if statement
+// the else and else if statement
 const password = 'password123';
 if (password.length >= 8){
     console.log('password is long enough');
