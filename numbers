@@ -1,0 +1,21 @@
+let radius = 10;
+const pi = 3.14;
+alert(radius); // shows a popup with the value of radius, output: 10
+alert(pi); // shows a popup with the value of pi, output: 3.14
+console.log(radius, pi); // logs the values of radius and pi to the console, output: 10 3.14
+
+//math operators +, -, *, /, **, %
+console.log(10 + 5); // output: 15
+console.log(10 - 5); // output: 5
+console.log(10 * 5); // output: 50
+console.log(10 / 5); // output: 2
+console.log(10 ** 2); // output: 100 (10 squared)
+console.log(10 % 3); // output: 1 (remainder of 10 divided by 3)    
+console.log(10 % 2); // output: 0 (remainder of 10 divided by 2)    
+
+//increment and decrement   
+let likes = 10;
+likes++;    
+console.log(likes); // output: 11 (increments likes by 1)
+likes--;    
+console.log(likes); // output: 10 (decrements likes by 1)   
