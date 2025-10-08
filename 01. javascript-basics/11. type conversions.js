@@ -26,4 +26,6 @@ console.log(String(bool2)); // output: "false" (boolean to string)
 let strTrue = "true";
 let strFalse = "false";
 let strEmpty = "";
-console.log(Boolean(strTrue));
+console.log(Boolean(strTrue)); // output: true (non-empty string to boolean)
+console.log(Boolean(strFalse)); // output: true (non-empty string to boolean)
+console.log(Boolean(strEmpty)); // output: false (empty string to boolean)  
