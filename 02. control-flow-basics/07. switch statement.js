@@ -37,7 +37,7 @@ switch(marks){
     case 'D':
         console.log('you got a D!');
     case 'E':
-        console.log('you got an A!');
+        console.log('you got an E!');
     default:
         console.log('not a valid grade');
 }
