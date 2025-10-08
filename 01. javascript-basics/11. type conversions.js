@@ -29,3 +29,9 @@ let strEmpty = "";
 console.log(Boolean(strTrue)); // output: true (non-empty string to boolean)
 console.log(Boolean(strFalse)); // output: true (non-empty string to boolean)
 console.log(Boolean(strEmpty)); // output: false (empty string to boolean)  
+
+//converting numbers to booleans
+let zero = 0;
+let nonZero = 42;
+console.log(Boolean(zero)); // output: false (0 to boolean)
+console.log(Boolean(nonZero)); // output: true (non-zero number to boolean) 
