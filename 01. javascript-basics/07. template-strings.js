@@ -178,3 +178,14 @@ function greet(name) {
     return `Hello, ${name}!`;
 }
 console.log(`${greet(firstName)}`); // output: Hello, John!
+
+// using template strings for dynamic array mapping
+let numbers = [1, 2, 3, 4, 5];
+let squares = `Squares: ${numbers.map(n => n * n).join(", ")}.`;
+console.log(squares); // output: Squares: 1, 4, 9, 16, 25.  
+
+// using template strings for dynamic HTML attributes
+let linkText = "Click here";
+let url = "https://www.example.com";
+let htmlLink = `<a href="${url}" target="_blank">${linkText}</a>`;
+console.log(htmlLink); // output: <a href="https://www.example.com" target="_blank">Click here</a>
