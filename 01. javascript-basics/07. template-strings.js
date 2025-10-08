@@ -29,3 +29,10 @@ let person = {
 };
 
 console.log(`Person Info: ${person.getInfo()}`); // output: Person Info: Name: Alice, Age: 25
+
+// tagged template literals
+function tag(strings, ...values) {
+    console.log(strings); // array of string literals
+    console.log(values);  // array of interpolated values
+    return "Tagged Template Result";
+}
