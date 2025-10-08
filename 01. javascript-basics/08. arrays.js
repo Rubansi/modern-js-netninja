@@ -30,10 +30,20 @@ fruits.forEach((fruit, index) => {
 // 2: Cherry    
 
 // array methods
+// map, filter, reduce
+// map example: 
 let numbers = [1, 2, 3, 4, 5];  
 let doubled = numbers.map(num => num * 2);
 console.log(doubled); // output: [ 2, 4, 6, 8, 10 ] 
 
+// filter example:
+let evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers); // output: [ 2, 4 ]       
+
+
+//reduce example:
+let sum = numbers.reduce((acc, num) => acc + num, 0);
+console.log(sum); // output: 15 (1 + 2 + 3 + 4 + 5)
 
 
 
