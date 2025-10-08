@@ -1,6 +1,6 @@
 //switch statements
 
-const grade = 'A';
+const grade = 'B';
 
 //using if statements
 
@@ -19,5 +19,5 @@ if (grade === 'A'){
     console.log ('student scored E')
     
 } else {
-
+    console.log ('not a valid grade')
 }
