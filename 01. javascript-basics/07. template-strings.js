@@ -95,4 +95,86 @@ let userId = 123;
 let apiURL = `${baseURL}/${endpoint}?id=${userId}`;
 console.log(apiURL); // output: https://api.example.com/getUser?id=123  
 
-// using template strings for logging
+// using template strings for logging   
+let logLevel = "INFO";
+let logMessage = "User logged in.";
+console.log(`[${logLevel}] - ${new Date().toISOString()} - ${logMessage}`); // output: [INFO] - 2024-06-15T12:34:56.789Z - User logged in.
+
+// using template strings for dynamic CSS generation    
+let color = "blue";
+let fontSize = "16px";
+let css = ` body {
+    color: ${color};
+    font-size: ${fontSize};
+} `;
+console.log(css); // output: CSS styles with dynamic color and font size    
+
+// using template strings for dynamic file paths
+let fileName = "document";
+let fileExtension = "txt";
+let filePath = `/home/user/${fileName}.${fileExtension}`;
+console.log(filePath); // output: /home/user/document.txt   
+
+// using template strings for dynamic email generation
+let recipientName = "Charlie";
+let senderName = "Support Team";
+let emailContent = `
+Dear ${recipientName},  
+Thank you for contacting us. We will get back to you shortly.
+
+Best regards,  
+${senderName}
+`;
+console.log(emailContent); // output: formatted email content with recipient and sender names   
+
+// using template strings for dynamic JSON generation
+let jsonData = `{
+    "name": "${firstName} ${lastName}",     
+    "age": ${age},
+    "isMember": ${isMember}
+}`;
+console.log(jsonData); // output: JSON string with dynamic values
+
+// using template strings for dynamic XML generation
+let xmlData = `
+<user>  
+    <name>${firstName} ${lastName}</name>
+    <age>${age}</age>
+    <isMember>${isMember}</isMember>    
+</user>
+`;
+console.log(xmlData); // output: XML string with dynamic values 
+
+// using template strings for dynamic command generation
+let command = `cp /source/${fileName}.${fileExtension} /destination/${fileName}_backup.${fileExtension}`;
+console.log(command); // output: cp /source/document.txt /destination/document_backup.txt   
+
+// using template strings for dynamic math expressions
+let radius = 5;
+let area = `The area of a circle with radius ${radius} is ${Math.PI * radius * radius}.`;
+console.log(area); // output: The area of a circle with radius 5 is 78.53981633974483.
+
+// using template strings for dynamic date formatting
+let event = "Meeting";
+let eventDate = new Date(2024, 5, 15);  
+let formattedDate = `The ${event} is scheduled for ${eventDate.toDateString()}.`;
+console.log(formattedDate); // output: The Meeting is scheduled for Sat Jun 15 2024.
+
+// using template strings for dynamic array generation
+let items = ["apple", "banana", "cherry"];
+let itemList = `Items: ${items.join(", ")}.`;       
+console.log(itemList); // output: Items: apple, banana, cherry.
+
+// using template strings for dynamic object property access
+let property = "name";
+let dynamicObject = {
+    name: "Dynamic Name",
+    age: 40
+};
+console.log(`The property "${property}" has the value: ${dynamicObject[property]}.`); // output: The property "name" has the value: Dynamic Name.
+
+// using template strings for dynamic function calls
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+console.log(`${greet(firstName)}`); // output: Hello, John!
