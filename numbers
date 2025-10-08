@@ -19,3 +19,65 @@ likes++;
 console.log(likes); // output: 11 (increments likes by 1)
 likes--;    
 console.log(likes); // output: 10 (decrements likes by 1)   
+
+//order of operations - follows BODMAS (Brackets, Orders, Division/Multiplication, Addition/Subtraction)
+let result = 10 + 5 * 2;    
+console.log(result); // output: 20 (multiplication first, then addition)
+result = (10 + 5) * 2;    
+console.log(result); // output: 30 (brackets first, then multiplication)    
+result = 10 / 2 + 5 * 2;    
+console.log(result); // output: 15 (division and multiplication first, then addition)   
+result = 10 / (2 + 5) * 2;    
+console.log(result); // output: 2.857142857142857 (brackets first, then division and multiplication)
+
+//compound assignment
+let likes1 = 10;    
+likes1 += 5; // equivalent to likes1 = likes1 + 5
+console.log(likes1); // output: 15
+likes1 -= 3; // equivalent to likes1 = likes1 - 3
+console.log(likes1); // output: 12
+likes1 *= 2; // equivalent to likes1 = likes1 * 2   
+console.log(likes1); // output: 24
+likes1 /= 4; // equivalent to likes1 = likes1 / 4   
+console.log(likes1); // output: 6
+likes1 %= 4; // equivalent to likes1 = likes1 % 4   
+console.log(likes1); // output: 2 (remainder of 6 divided by 4)
+
+//NaN - Not a Number (result of an invalid mathematical operation)  
+console.log(7 / "hello"); // output: NaN (cannot divide a number by a string)
+console.log("hello" * 3); // output: NaN (cannot multiply a string by a number)
+console.log(0 / 0); // output: NaN (0 divided by 0 is undefined)
+console.log(Infinity); // output: Infinity (result of dividing a number by 0)
+console.log(-Infinity); // output: -Infinity (result of dividing a negative number by 0)
+console.log(typeof NaN); // output: "number" (type of NaN is number)
+console.log(Number("hello")); // output: NaN (cannot convert string to number)
+console.log(isNaN(NaN));
+// output: true (checks if the value is NaN)
+console.log(isNaN(5)); 
+// output: false (5 is a valid number)  
+console.log(isNaN("hello")); 
+// output: true (cannot convert string to number, results in NaN)  
+console.log(isNaN("123"));      
+// output: false (string "123" can be converted to number 123)
+console.log(Number.isNaN(NaN)); 
+// output: true (checks if the value is exactly NaN)
+console.log(Number.isNaN(5));   
+// output: false (5 is a valid number)
+console.log(Number.isNaN("hello")); 
+// output: false (string "hello" is not NaN, it's a string)
+console.log(Number.isNaN("123")); 
+// output: false (string "123" is not NaN, it's a string)   
+console.log(Number.isNaN(0 / 0));
+// output: true (0 divided by 0 results in NaN)
+console.log(Number.isNaN(7 / "hello")); 
+// output: true (7 divided by "hello" results in NaN)
+console.log(Number.isNaN("hello" * 3)); 
+// output: true ("hello" multiplied by 3 results in NaN)    
+console.log(Number.isNaN(undefined)); 
+// output: false (undefined is not NaN, it's a different type)
+console.log(Number.isNaN(null)); 
+// output: false (null is not NaN, it's a different type)
+console.log(Number.isNaN(Infinity)); 
+// output: false (Infinity is not NaN, it's a valid number)
+console.log(Number.isNaN(-Infinity)); 
+// output: false (-Infinity is not NaN, it's a valid number)
