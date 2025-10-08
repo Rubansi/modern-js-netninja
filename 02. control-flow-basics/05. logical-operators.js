@@ -26,3 +26,16 @@ if (password1.length && password1.includes('@')){
 
 //logical OR - one of the arguments has to be true
 //logical AND && - both arguments have to be true.
+
+
+//logical NOT (!)
+//Executes when a condition is not true
+// when a ! is placed in front of a boolean it negates the boolean. If that boolean was false, it switches to trues.
+let user = false;
+
+if(!user){
+    console.log('you must be logged in to continue')
+}
+
+console.log (!true);
+console.log(!false);
