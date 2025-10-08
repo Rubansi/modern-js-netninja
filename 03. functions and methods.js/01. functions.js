@@ -20,8 +20,8 @@ speak (); // calling a function expression
 
 //example
 
-salute ();
+salute (); //function is called before being declared/ defined
 
 function salute(){
-    console.log('i salute you!')
+    console.log('i salute you!') 
 }
