@@ -72,3 +72,9 @@ console.log(`Uppercase Name: ${toUpperCase(firstName)}`); // output: Uppercase N
 let isMember = true;
 let membershipMessage = `Membership Status: ${isMember ? "Active Member" : "Guest"}`;
 console.log(membershipMessage); // output: Membership Status: Active Member
+
+// nested expressions
+let x = 10;
+let y = 20;
+console.log(`The product of ${x} and ${y} is ${(() => x * y)()}.`); // output: The product of 10 and 20 is 200.  
+// The third placeholder, ${(() => x * y)()}, is more interesting: it defines an arrow function () => x * y that multiplies x and y, and immediately invokes it with (). This is called an Immediately Invoked Function Expression (IIFE) within a template string.
