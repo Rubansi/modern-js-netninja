@@ -1,11 +1,12 @@
 //switch statements
 
-const grade = 'B';
+const grade = 'C';
 
 //using if statements
 
 if (grade === 'A'){
     console.log ('student scored A')
+    
 } else if (grade === 'B' ){
     console.log ('student scored B')
     

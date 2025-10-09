@@ -16,3 +16,4 @@ if(true){
 console.log('outside code block: ', age, test);
 
 // note that scope rules apply to both let and const variables and not to var
+
