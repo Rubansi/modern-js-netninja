@@ -10,7 +10,7 @@
 // but when we make a copy of a reference types we only make a copy of the pointer but the values remain the same
 
 
-// primitive values
+// primitive values - stored on the stack
 
 let scoreOne = 50;
 let scoreTwo = scoreOne;
@@ -18,6 +18,8 @@ let scoreTwo = scoreOne;
 console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // both will show a score of 50
 
 scoreOne = 100;
-console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // scoreOne will show 100 and scoreTwo will show 50
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // scoreOne will show 100 and scoreTwo will show 50 - a change in one did not affect the other.
 
-// reference types
+
+// reference types - stored on the heap, and a pointer will be initiated in the stack to point to the reference types
+
