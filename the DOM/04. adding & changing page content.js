@@ -27,3 +27,4 @@ const people = ['mario', 'luigi', 'john'];
 people.forEach(person => {
     content.innerHTML += `<p> ${person}</p>`;
 }); 
+
