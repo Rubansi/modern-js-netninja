@@ -25,7 +25,7 @@ console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // scoreOne will 
 const userOne = {name: 'Mario', age: 30};
 const userTwo = userOne;
 
-console.log(userOne, userTwo); 
+console.log(userOne, userTwo); //output: [ { name: 'Mario', age: 30 }, { name: 'Mario', age: 30 } ]
 
 userOne.age = 40;
-console.log(userOne, userTwo);
+console.log(userOne, userTwo); // output: [ { name: 'Mario', age: 40 }, { name: 'Mario', age: 40 } ], note - a change in one causes a change in the other.
