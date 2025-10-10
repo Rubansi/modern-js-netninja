@@ -1,13 +1,13 @@
 const name = 'shaun';
 
-//functions 
+//functions, a function is invoked with the function name and parenthesis
 
-const greet = () => 'hello';
+const greet = () => 'hello there';
 
-let result = greet();
-console.log(result);
+let resultOne = greet();
+console.log(resultOne);
 
 
-//methods 
+//methods, a method is invoked with a .notation
 
-let resultTwo = name.Up
+name.toUpperCase();
