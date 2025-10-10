@@ -12,3 +12,4 @@ console.log(errors) // outputs an html collection and not a node list, we cannot
 // get elements by their tag name
 const paras = document.getElementsByTagName('p')
 console.log(paras)
+console.log(paras[1]) // we can access an item in the list
