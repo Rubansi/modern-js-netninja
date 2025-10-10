@@ -9,6 +9,10 @@
 
 // querying the DOM,reaching into the DOM referencing an element and doing something with it later
 
-const para = document.querySelector('p');
+let para = document.querySelector('p');
+
+let para = document.querySelector('.error');
+
+console.log(para);
 
 console.log(para);
