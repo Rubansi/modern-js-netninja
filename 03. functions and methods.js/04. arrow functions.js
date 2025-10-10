@@ -26,9 +26,9 @@ const result = greet();
 console.log(result);
 
 
-//arrow function example 2- regular expression
+//arrow function example 2- regular expression; 
 
-const bills = function (products, tax){
+const bills = function (products, tax){ //we use the function keyword
     let total = 0;
     for (let i = 0; i < products.length; i++){
         total += products[i] + products[i] * tax;
@@ -40,7 +40,7 @@ console.log(bills([10,15,30], 0.2));
 
 //arrow function example 2- arrow expression
 
-const bill = (products, tax) => {
+const bill = (products, tax) => { // the function keyword is removed and replaced with the arrow
     let total = 0;
     for (let i = 0; i < products.length; i++){
         total += products[i] + products[i] * tax;
