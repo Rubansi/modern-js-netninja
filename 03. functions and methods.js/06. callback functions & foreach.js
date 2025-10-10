@@ -36,13 +36,17 @@ personList.forEach((person, index) => {
 });
 
 
-//defining a callback function the parsing it
+//defining a callback function then parsing it
 let country = ['Kenya', 'Uganda', 'Tanga', 'Rwanda', 'Malawi'];
 
-const logCountry = (person, index) => {
+const logCountry = (country, index) => {
     console.log(`${index} - hello ${country}`);
 };
 
 country.forEach((country, index) => {  
     console.log(index, country)
-});             
+   
+});     
+
+country.forEach(logCountry); //parsing the function defined in line 42
+
