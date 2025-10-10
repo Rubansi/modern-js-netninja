@@ -20,4 +20,10 @@ const content = document.querySelector('.content');
 content.innerHTML = '<h2>THIS IS A NEW HEADING</h2>'; // completely overrides the content, use += to append text
 
 
+// example
 
+const people = ['mario', 'luigi', 'yoshi'];
+
+people.forEach(person => {
+    content += `<p> ${person}</p>`;
+});
