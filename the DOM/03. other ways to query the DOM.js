@@ -10,3 +10,5 @@ console.log(errors) // outputs an html collection and not a node list, we cannot
 
 
 // get elements by their tag name
+const paras = document.getElementsByTagName('p')
+console.log(paras)
