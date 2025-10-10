@@ -20,7 +20,17 @@ console.log('area is: ', area);
 //arrow functions with one parameter and one return value
 const area2 = calcArea2 = radius => 3.14 * radius **2;
 
-//arrow function example
+//arrow function example 1
 const greet = () => 'hello world';
 const result = greet();
 console.log(result);
+
+
+//arrow function example 2
+const bill = function (products, tax){
+    let total = 0;
+    for (let i = 0, 1 < products/length; i++){
+        total += products[i] + products[i] * tax;
+    }
+    return total;
+}
