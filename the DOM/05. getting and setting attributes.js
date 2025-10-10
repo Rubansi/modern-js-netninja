@@ -10,4 +10,4 @@ link.innerText =  'the net ninja website';
 const message = document.querySelector('p');
 
 console.log(message.getAttribute('class'));
-message.setAttribute('class', 'success')
+message.setAttribute('class', 'success');
