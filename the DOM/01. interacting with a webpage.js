@@ -11,7 +11,10 @@
 
 const para = document.querySelector('div.error'); // selecting the elements using css selector, here we select a class names error inside a div
 // understanding css selectors is very important is using the querySelector method
+
 const par = document.querySelector('p');
+
+const heading = document.querySelector('body > h1'); 
 
 console.log(para);
 
