@@ -12,9 +12,11 @@
 const para = document.querySelector('div.error'); // selecting the elements using css selector, here we select a class names error inside a div
 // understanding css selectors is very important is using the querySelector method
 
-const par = document.querySelector('p');
+const par = document.querySelector('p'); // selecting the first p 
 
 const heading = document.querySelector('body > h1'); 
+
+const paras = document.querySelectorAll('p') // selecting all p tags in the document and storing them into a nodelist, not an array though
 
 console.log(para);
 
