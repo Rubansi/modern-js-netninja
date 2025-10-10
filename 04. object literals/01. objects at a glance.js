@@ -18,7 +18,7 @@ user.age = 35; //changing the user's age
 console.log(user.age); // here we have used the .notation
 
 console.log(user.email);
-user['name'] = 'Sean Paul';
+user['name'] = 'Sean Paul'; //accessing the object property called name and changing its value
 console.log(user['name']); //here we have used the [] - square brackets
 
 //note, [] and . can be used interchangeably, but consistency is key
