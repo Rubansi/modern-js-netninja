@@ -1,5 +1,4 @@
 //functions, a function is invoked with the function name and parenthesis
-
 const greet = () => 'hello there';
 
 let resultOne = greet();
