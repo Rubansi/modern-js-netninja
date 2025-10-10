@@ -9,7 +9,7 @@ console.log('area is: ', area1);
 
 
 
-//arrow function
+//arrow function, newer and shorter way to write functions
 const calcArea = (radius) =>  {
     return 3.14 * radius**2;
 }
