@@ -5,23 +5,23 @@
 // };
 
 //using console log method
-// const calcArea = function(radius){
-//     let area = 3.14 * radius **2;
-//     console.log(area);
+const calcArea = function(radius){
+    let area = 3.14 * radius **2;
+    console.log(area);
    
-// }
+}
 
-// calcArea (5);
+calcArea (5);
 
 
 //returning values method
-const calcArea = function(radius){
+const calcArea2 = function(radius){
     let area = 3.14 * radius **2;
     return area;
    
 }
 
-const area = calcArea(5);
+const area = calcArea2(5);
 console.log(area);
 
 
