@@ -22,4 +22,8 @@ console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // scoreOne will 
 
 
 // reference types - stored on the heap, and a pointer will be initiated in the stack to point to the reference types
+const userOne = {name: 'Mario', age: 30};
+const userTwo = userOne;
+
+console.log(userOne, userTwo); 
 
