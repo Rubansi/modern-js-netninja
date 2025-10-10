@@ -17,4 +17,4 @@ paras.forEach(para => {
 const content = document.querySelector('.content');
 // console.log(content.innerHTML);
 
-content.innerHTML = '<h2>this is a new h2</h2>'
+content.innerHTML = '<h2>this is a new heading</h2>';
