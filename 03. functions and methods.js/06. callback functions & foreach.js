@@ -6,7 +6,13 @@ const myFunc = (callbackFunc) => {
     callbackFunc(value);
 }
 
-myFunc(function(value){
+myFunc(function(value){ // parsing a function as an argument
+    //do something
+    console.log(value);
+});
+
+//making use of arrow function
+myFunc(value => { // parsing a function as an argument
     //do something
     console.log(value);
 });
