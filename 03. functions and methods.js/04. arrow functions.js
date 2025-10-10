@@ -26,13 +26,26 @@ const result = greet();
 console.log(result);
 
 
-//arrow function example 2
-const bill = function (products, tax){
+//arrow function example 2- regular expression
+
+const bills = function (products, tax){
     let total = 0;
-    for (let i = 0, 1 < products/length; i++){
+    for (let i = 0; i < products.length; i++){
         total += products[i] + products[i] * tax;
     }
     return total;
 }
 
-console.log(bill([10,15,30], 0.2))
+console.log(bills([10,15,30], 0.2));
+
+//arrow function example 2- arrow expression
+
+const bill = (products, tax) => {
+    let total = 0;
+    for (let i = 0; i < products.length; i++){
+        total += products[i] + products[i] * tax;
+    } 
+    return total;
+};
+
+console.log(bill([10,15,30], 0.2));
