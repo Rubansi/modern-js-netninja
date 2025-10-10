@@ -27,3 +27,5 @@ const userTwo = userOne;
 
 console.log(userOne, userTwo); 
 
+userOne.age = 40;
+console.log(userOne, userTwo);
