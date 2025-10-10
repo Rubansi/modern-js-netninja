@@ -24,6 +24,14 @@ const calcArea2 = function(radius){
 const area = calcArea2(5);
 console.log(area);
 
+//returning values method 2
+const calcArea3 = function(radius){
+    return 3.14 * radius **2;
+    // return area;
+   
+}
 
+const circleArea = calcArea3(5);
+console.log(area);
 
 
