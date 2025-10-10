@@ -1,0 +1,1 @@
+// the DOM is used to interact with html doc using javascript
