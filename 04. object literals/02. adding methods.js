@@ -9,13 +9,15 @@ let user = {
     login: function (){
         console.log('the use is logged in');
     },
-    logout: function({
+    logout: function(){
         console.log('the use is logged out');
     },
-    
+
 };
 
+
 user.login();
+user.logout();
 
 const name = 'mario';
 name.toUpperCase();
