@@ -2,7 +2,7 @@ const name = 'shaun';
 
 //functions 
 
-const greet = () => 'hello;
+const greet = () => 'hello';
 
 let result = greet();
 console.log(result);
