@@ -12,3 +12,9 @@ paras.forEach(para => {
     console.log(para.innerText);
     para.innerText += ' new extra text' // adding extra text
 });
+
+
+const content = document.querySelector('.content');
+// console.log(content.innerHTML);
+
+content.innerHTML = <h2> 'this is a new h2' </h2>
