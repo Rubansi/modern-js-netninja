@@ -9,4 +9,6 @@
 
 // querying the DOM,reaching into the DOM referencing an element and doing something with it later
 
-const para = document.querySelector('p')
+const para = document.querySelector('p');
+
+console.log(para);
