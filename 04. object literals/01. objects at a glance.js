@@ -22,3 +22,5 @@ user['name'] = 'Sean Paul'; //accessing the object property called name and chan
 console.log(user['name']); //here we have used the [] - square brackets
 
 //note, [] and . can be used interchangeably, but consistency is key
+
+console.log(typeof user)
