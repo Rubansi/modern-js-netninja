@@ -41,8 +41,8 @@ let country = ['Kenya', 'Uganda', 'Tanga', 'Rwanda', 'Malawi'];
 
 const logCountry = (person, index) => {
     console.log(`${index} - hello ${country}`);
-}
+};
 
-country.forEach((country, index) => {
+country.forEach((country, index) => {  
     console.log(index, country)
-});
+});             
