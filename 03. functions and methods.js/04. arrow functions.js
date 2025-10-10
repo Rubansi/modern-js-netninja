@@ -20,4 +20,7 @@ console.log('area is: ', area);
 //arrow functions with one parameter and one return value
 const area2 = calcArea2 = radius => 3.14 * radius **2;
 
-
+//arrow function example
+const greet = () => 'hello world';
+const result = greet();
+console.log(result);
