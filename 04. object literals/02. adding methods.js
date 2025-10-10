@@ -12,7 +12,7 @@ let user = {
     logout: function(){
         console.log('the use is logged out');
     },
-
+   
 };
 
 
