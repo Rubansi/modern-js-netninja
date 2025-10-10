@@ -15,4 +15,6 @@
 let scoreOne = 50;
 let scoreTwo = scoreOne;
 
-console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo} );
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+
+// reference types
