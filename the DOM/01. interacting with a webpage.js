@@ -7,3 +7,5 @@
 
 // so we use the tree of nodes access them and manipulate the html document using javascript using certain methods
 
+// querying the DOM,reaching into the DOM referencing an element and doing something with it later
+
