@@ -1,6 +1,6 @@
 // callbacks & foreach
 
-const = myFunc = (callbackFunc) => {
+const myFunc = (callbackFunc) => {
     //do something
     let value = 50;
     callbackFunc(value);
