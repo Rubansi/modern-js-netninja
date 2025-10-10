@@ -8,7 +8,11 @@ let user = {
     blogs: ['the river between', 'a man of the people', 'the enemy of the people'],
     login: function (){
         console.log('the use is logged in');
-    }
+    },
+    logout: function({
+        console.log('the use is logged out');
+    },
+    
 };
 
 user.login();
