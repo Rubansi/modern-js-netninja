@@ -22,8 +22,8 @@ content.innerHTML = '<h2>THIS IS A NEW HEADING</h2>'; // completely overrides th
 
 // example
 
-const people = ['mario', 'luigi', 'yoshi'];
+const people = ['mario', 'luigi', 'john'];
 
 people.forEach(person => {
-    content += `<p> ${person}</p>`;
-});
+    content.innerHTML += `<p> ${person}</p>`;
+}); 
