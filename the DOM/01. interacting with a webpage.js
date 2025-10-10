@@ -9,9 +9,9 @@
 
 // querying the DOM,reaching into the DOM referencing an element and doing something with it later
 
-// const para = document.querySelector('p');
+const para = document.querySelector('p'); // selecting the first paragraph
 
-const para = document.querySelector('.error');
+const para = document.querySelector('.error'); //selecting the first error class
 
 console.log(para);
 
