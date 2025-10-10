@@ -11,4 +11,4 @@ people.forEach(function(person){
 });
 
 console.log(html);
-ul.innerHTML = html; //this displays the list of the names in the html document
+ul.innerHTML = html; //this displays the list of the names in the html document, more of these are explored in the DOM section
