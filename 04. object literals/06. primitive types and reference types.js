@@ -15,6 +15,9 @@
 let scoreOne = 50;
 let scoreTwo = scoreOne;
 
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`); // both will show a score of 50
+
+scoreOne = 100;
 console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
 
 // reference types
