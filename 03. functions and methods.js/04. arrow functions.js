@@ -34,3 +34,5 @@ const bill = function (products, tax){
     }
     return total;
 }
+
+console.log(bill([10,15,30], 0.2))
