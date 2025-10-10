@@ -10,8 +10,11 @@
 // querying the DOM,reaching into the DOM referencing an element and doing something with it later
 
 const para = document.querySelector('div.error'); // selecting the elements using css selector, here we select a class names error inside a div
-
+// understanding css selectors is very important is using the querySelector method
 const par = document.querySelector('p');
 
 console.log(para);
+
+console.log(par);
+
 
