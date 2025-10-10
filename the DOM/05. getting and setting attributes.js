@@ -11,3 +11,4 @@ const message = document.querySelector('p');
 
 console.log(message.getAttribute('class'));
 message.setAttribute('class', 'success');
+message.setAttribute('style', 'color: red;'); 
