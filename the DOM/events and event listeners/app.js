@@ -2,9 +2,14 @@
 const ol = document.querySelector('ol');
 ol.remove(); // remove the ul elements from the web page
 
-
+// adding elements
 const button = document.querySelector('button');
 
+button.addEventListener('click', () => {
+    console.log('you clicked me')
+});
+
+// adding an event listener
 button.addEventListener('click', () => {
     console.log('you clicked me')
 });
