@@ -11,8 +11,9 @@ items.forEach(item => {
     item.addEventListener('click', e => {
         // console.log('item clicked');
         // console.log(e);
-        console.log(e.target); //use this often
-        console.log(item);
+        // console.log(e.target); //use this often
+        // console.log(item);
+        e.target.style.textDecoration = 'line-through';
 
     })
 });
