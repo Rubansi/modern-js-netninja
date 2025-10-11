@@ -35,10 +35,9 @@ button {
   padding: 6px 10px;
 }
 
-.popup-close{
-  position: absolute;
-  top: 5px;
-  right: 8px;
-  cursor: pointer;
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
 }
-
