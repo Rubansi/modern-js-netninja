@@ -4,13 +4,6 @@
 // ul.remove(); 
 
 
-// adding elements
-const button = document.querySelector('button');
-
-button.addEventListener('click', () => {
-    ul.innerHTML += '<li>something new </li>';
-});
-
 // adding an event listener
 button.addEventListener('click', () => {
     console.log('you clicked me')
@@ -27,7 +20,7 @@ items.forEach(item => {
         // console.log(item);
         e.target.style.textDecoration = 'line-through';
 
-        e.target.remove();
+        // e.target.remove();
 
     })
 });
