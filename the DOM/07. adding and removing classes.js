@@ -21,7 +21,14 @@ paras.forEach (p=> {
      if(p.innerText.includes('success')){
         p.classList.add('success') // adds a class called success to any line containing the word success
      }
-
 });
 
 //note when to use innerText and textContent (displays all content even though its hidden)
+
+
+// example, toggling classes
+const title = document.querySelector('.title');
+
+title.classList.toggle('test');
+title.classList.toggle('test');
+
