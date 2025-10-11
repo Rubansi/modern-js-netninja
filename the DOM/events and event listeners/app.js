@@ -1,3 +1,8 @@
+//removing elements from the DOM
+const ol = document.querySelector('ol');
+// ul.remove(); // remove the ul elements from the web page
+
+
 const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
@@ -14,6 +19,8 @@ items.forEach(item => {
         // console.log(e.target); //use this often
         // console.log(item);
         e.target.style.textDecoration = 'line-through';
+
+        e.target.remove();
 
     })
 });
