@@ -6,7 +6,7 @@ ol.remove(); // remove the ul elements from the web page
 const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
-    console.log('you clicked me')
+    ul.innerHTML += '<li>something new </li>';
 });
 
 // adding an event listener
