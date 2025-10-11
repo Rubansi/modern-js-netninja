@@ -10,7 +10,7 @@ close.addEventListener('click', () => {
     popup.style.display = 'none';
 });
 
-close.addEventListener('click', () => {
+popup.addEventListener('click', () => {
     popup.style.display = 'none';
 });
 
