@@ -1,7 +1,3 @@
 // adding and removing styles
 
-const title = document.querySelector('h1');
-
-title.setAttribute('style', 'margin: 50px');
-
-console.log(title.style)
+const title = document.querySelector('p')
