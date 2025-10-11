@@ -1,6 +1,8 @@
 //removing elements from the DOM
-// const ol = document.querySelector('ol');
-// ol.remove(); // remove the ul elements from the web page
+
+const ul = document.querySelector('ul');
+ul.remove(); // remove the ul elements from the web page
+
 
 // adding elements
 const button = document.querySelector('button');
